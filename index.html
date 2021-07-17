@@ -8,6 +8,14 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!--openiconic css-->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css" 
+    integrity="sha512-LeCmts7kEi09nKc+DwGJqDV+dNQi/W8/qb0oUSsBLzTYiBwxj0KBlAow2//jV7jwEHwSCPShRN2+IWwWcn1x7Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -28,9 +36,15 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="container-fluid">
       <!-- Timeblocks go here -->
-    </div>
+      <ul class="list-group w-75 m-auto">
+        <li class="list-group-item">
+          <p class="timeblockTime">9AM</p>
+          <p class="timeblockEvent"></p>
+          <a class="timeblockSave"><span class="oi oi-file"></span></a>
+        </li>
+      </ul>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
