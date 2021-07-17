@@ -69,3 +69,26 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+ /*Custom*/
+ .custom-timeblock-time, .custom-timeblock-save {
+   width: 10%;
+ }
+
+ .custom-timeblock-event {
+  width: 80%;
+  border-left: 3px solid #9aa3ab;
+}
+
+.custom-timeblock-time {
+ border-top-style: dashed;
+}
+
+.custom-timeblock-save {
+  border-top-right-radius: 1.00rem;
+  border-bottom-right-radius: 1.00rem;
+  border-left: 3px solid #118799
+}
+
+.custom-list-item {
+ height: 100px;
+}
