@@ -6,6 +6,23 @@ currentDayEl.text(today.format("dddd, MMMM Do"))
 
 //ul for the saveButtons
 var scheduleListEl = $("ul")
+//input fields
+var inputsEl = $("input")
+
+//function to update values of input fields
+function updateValues() {
+    //read from loacal storage
+    var savedInputs = JSON.parse(localStorage.getItem("savedInputs"));
+    //write items to the value for each input
+    for (let i = 0; i < inputsEl.length; i++) {
+        const element = inputsEl[i];
+        element.value = savedInputs[i];
+    }
+
+}
+//on start
+
+updateValues();
 
 scheduleListEl.on("click", ".saveButton", function(){
     //creating an empty array
