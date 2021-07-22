@@ -30,7 +30,7 @@ var inputsEl = $("input")
 //function to update values of input fields
 function updateValues() {
     //read from loacal storage
-    var savedInputs = JSON.parse(localStorage.getItem("savedInputs"));
+    var savedInputs = JSON.parse(localStorage.getItem("savedInputs")) || ["", "", "", "", "", "", "", "", "", ];
     //write items to the value for each input
     for (let i = 0; i < inputsEl.length; i++) {
         const element = inputsEl[i];
