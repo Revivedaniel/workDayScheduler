@@ -11,7 +11,17 @@ The input field labeled with the current hour will highlight red.
 The input fields with a future time will highlight green.
 And the input fields in the past are simply grey.
 
-I used Bootstrap for the desing, jQuery for dom manipulation, and Moment.js for time tracking
+Technologies Used:
+1. Bootstrap
+2. FontAwesome API
+3. Google Fonts API
+4. jQuery
+5. Moment.js
+
+Languages Used:
+1. HTML5
+2. CSS3
+3. JavaScript
 
 ## Demo
 ![workDayScheduler](./assets/vids/workdaySchedulerDemo.gif)
